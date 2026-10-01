@@ -1,2 +1,4 @@
 <Solution>
+  <Project Path="Academia.Api/Academia.Api.csproj" />
+  <Project Path="Academia.Mvc/Academia.Mvc.csproj" />
 </Solution>
