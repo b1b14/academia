@@ -43,8 +43,7 @@ app.UseAuthorization();
 app.MapStaticAssets();
 
 app.MapControllerRoute(
-    name: "default",
-    pattern: "{controller=Home}/{action=Index}/{id?}")
+    name: "default",    pattern: "{controller=Home}/{action=Index}/{id?}")
     .WithStaticAssets();
 
 // ---- Seed de Roles e usuário Admin padrão ----
